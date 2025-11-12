@@ -2,7 +2,7 @@ Research Project – 2024
 
 A hybrid deep learning model combining Sentence-BERT (SBERT) and BiLSTM architectures for sentiment and depression detection in social media text.
 
-📘 Overview
+** Overview
 
 This research project explores the use of hybrid deep learning models to analyze linguistic markers in social media posts for identifying signs of depression and emotional distress.
 
@@ -79,7 +79,5 @@ Feature importance analysis using SHAP/LIME.
 Kgodiso Austin Leboho
 
 📧 kgodisoaustinleboho@gmail.com
-
-🎓 BSc (Hons) Computer Science, North-West University
 
 📍 Midrand, South Africa
