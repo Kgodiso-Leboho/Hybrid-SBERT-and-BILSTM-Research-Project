@@ -4,60 +4,61 @@ A hybrid deep learning model combining Sentence-BERT (SBERT) and BiLSTM architec
 
 **Overview**
 
-This research project explores the use of hybrid deep learning models to analyze linguistic markers in social media posts for identifying signs of depression and emotional distress.
+- This research project explores the use of hybrid deep learning models to analyze linguistic markers in social media posts for identifying signs of depression and emotional distress.
 
-The model integrates Sentence-BERT embeddings for contextual understanding of text with a BiLSTM network for sequential learning.
+- The model integrates Sentence-BERT embeddings for contextual understanding of text with a BiLSTM network for sequential learning.
 
-The primary goal of this research is to improve explainability and accuracy in mental health text classification models by leveraging transfer learning, deep contextual embeddings, and interpretable linguistic features.
+- The primary goal of this research is to improve explainability and accuracy in mental health text classification models by leveraging transfer learning, deep contextual embeddings, and interpretable linguistic features.
 
 **Objectives**
 
-Build an interpretable deep learning model for detecting linguistic indicators of depression.
+- Build an interpretable deep learning model for detecting linguistic indicators of depression.
 
-Compare performance between baseline models (SBERT, BiLSTM) and the proposed hybrid approach.
+- Compare performance between baseline models (SBERT, BiLSTM) and the proposed hybrid approach.
 
-Evaluate linguistic feature contributions to model explainability.
+- Evaluate linguistic feature contributions to model explainability.
 
-Support ongoing research in AI for Mental Health and Explainable NLP.
+- Support ongoing research in AI for Mental Health and Explainable NLP.
 
 **Model Architecture**
-Input Text → Preprocessing → SBERT Embeddings → BiLSTM → Dense Layers → Output (Classification)
 
-SBERT: Extracts sentence-level contextual embeddings.
+- Input Text → Preprocessing → SBERT Embeddings → BiLSTM → Dense Layers → Output (Classification)
 
-BiLSTM: Captures sequential dependencies and emotional tone.
+- SBERT: Extracts sentence-level contextual embeddings.
 
-Dense Layers: Perform classification (Depressed / Not Depressed).
+- BiLSTM: Captures sequential dependencies and emotional tone.
+
+- Dense Layers: Perform classification (Depressed / Not Depressed).
 
 **Technologies & Libraries**
 
-Python 3.10+
+- Python 3.10+
 
-PyTorch
+- PyTorch
 
-Transformers (Hugging Face)
+- Transformers (Hugging Face)
 
-Pandas, NumPy, Matplotlib
+- Pandas, NumPy, Matplotlib
 
-Scikit-learn
+- Scikit-learn
 
-TextBlob / NLTK / SpaCy
+- TextBlob / NLTK / SpaCy
 
-Google Colab / Jupyter Notebook
+- Google Colab / Jupyter Notebook
 
 **Dataset**
 
-Publicly available social media text datasets (e.g., Reddit or Twitter-based depression detection datasets).
+- Publicly available social media text datasets (e.g., Reddit or Twitter-based depression detection datasets).
 
-Data preprocessing includes:
+- **Data preprocessing includes:**
 
-Tokenization
+  - Tokenization
 
-Stopword removal
+  - Stopword removal
 
-Lemmatization
+  - Lemmatization
 
-Text normalization
+  - Text normalization
 
 ⚠️ Note: Dataset links are omitted for ethical and privacy reasons. Use publicly available research datasets for replication.
 
@@ -67,11 +68,11 @@ Results are based on experimental datasets and may vary depending on preprocessi
 
 To ensure interpretability, the model includes:
 
-Linguistic feature extraction (e.g., pronoun ratios, sentiment scores, readability indices).
+- Linguistic feature extraction (e.g., pronoun ratios, sentiment scores, readability indices).
 
-Attention visualization to highlight key words influencing classification.
+- Attention visualization to highlight key words influencing classification.
 
-Feature importance analysis using SHAP/LIME.
+- Feature importance analysis using SHAP/LIME.
 
 **Author**
 
