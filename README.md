@@ -60,7 +60,7 @@ A hybrid deep learning model combining Sentence-BERT (SBERT) and BiLSTM architec
 
   - Text normalization
 
-⚠️ Note: Dataset links are omitted for ethical and privacy reasons. Use publicly available research datasets for replication.
+Note: Dataset links are omitted for ethical and privacy reasons. Use publicly available research datasets for replication.
 
 Results are based on experimental datasets and may vary depending on preprocessing and hyperparameters.
 
